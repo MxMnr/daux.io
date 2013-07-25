@@ -109,16 +109,16 @@ if ($homepage && $homepage_url !== '/') {
 		</style>
 		<script src="/js/less.min.js"></script>
 	<?php } else { ?>
-		<link rel="stylesheet" href="/css/daux-<?php echo $options['theme'];?>.css">
+		<link rel="stylesheet" href="css/daux-<?php echo $options['theme'];?>.css">
 	<?php } ?>
 
 	<!-- hightlight.js -->
-	<script src="/js/highlight.min.js"></script>
+	<script src="js/highlight.min.js"></script>
 	<script>hljs.initHighlightingOnLoad();</script>
 
 	<!-- Navigation -->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
-	<script src="/js/custom.js"></script>
+	<script src="js/custom.js"></script>
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
